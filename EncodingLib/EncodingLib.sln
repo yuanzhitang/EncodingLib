@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodingLib", "EncodingLib\EncodingLib.csproj", "{5154FA1D-3119-4417-9211-D6B1F41B7A6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5154FA1D-3119-4417-9211-D6B1F41B7A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5154FA1D-3119-4417-9211-D6B1F41B7A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5154FA1D-3119-4417-9211-D6B1F41B7A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5154FA1D-3119-4417-9211-D6B1F41B7A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {998A49F5-0ABA-4675-94FB-7B1A6327FD08}
+	EndGlobalSection
+EndGlobal
