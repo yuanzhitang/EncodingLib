@@ -10,11 +10,11 @@ namespace EncodingLib
 	{
 		static void Main(string[] args)
 		{
-			//Char "Š", Unicode Code page is \u0160
-			string str = "\u0160";
-			string utf16CodePoint = EncodingUtil.ConvertToUnicodeCodePoint(str[0]);
+			Console.OutputEncoding = Encoding.Unicode;
 
-			var character = EncodingUtil.ConvertUnicodeCodePointToChar("0160");
+			TranslateSample.Run();
+
+			Console.ReadKey();
 		}
 	}
 }
